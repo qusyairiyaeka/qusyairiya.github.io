@@ -1,0 +1,119 @@
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+header{
+  text-align: center;
+  background-color: #6c8594;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 97%;
+  background-color: #aacfe6;
+  height: 400px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+</style>
+</head>
+<body>
+<header>
+  <h1 style="color: white"> PEMOGRAMAN WEB </h1>
+<ul>
+  <li><a href="#news">Daftar</a></li>
+</ul>
+</header>
+
+<html>
+<head> </head>
+	
+<body>
+	<form>
+	<h1> FORM DAFTAR </h1>
+	<label for="namadpn"> Nama Depan </label>
+	<input type="text">
+	<label for="namablk"> Nama Belakang </label>
+	<input type="text"> <br> <br>
+	<label for="kotalahir"> Tempat Lahir </label>
+	<input list="kotalahir">
+	  <datalist id="kotalahir">
+		<option value="Kab Madiun">
+		<option value="Kab Magetan">
+		<option value="Kab Ngawi">
+		<option value="Kota Madiun">
+		<option value="Kab Ponorogo">
+	  </datalist> <br> <br>
+	  <label> Tanggal Lahir </label>
+	  <input type="date"> <br> <br>
+	  <label> Jenis Kelamin </label>
+	  <input type="radio" id="laki-laki">
+	  <label> Laki-laki </label>
+	  <input type="radio" id="perempuan">
+	  <label> Perempuan </label> <br> <br>
+	  
+	  <label> Hobby </label>
+	  <input type="checkbox" id="olahraga" value="olahraga">
+	  <label> Olahraga </label>
+	  <input type="checkbox" id="membaca" value="membaca">
+	  <label> Membaca </label>
+	  <input type="checkbox" id="kluyuran" value="kluyuran">
+	  <label> Kluyuran </label> <br> <br>
+	  <label> Alamat </label>
+	  <textarea rows="3"> </textarea> <br> <br>
+	  
+	  <input type="submit" value="Daftar">
+	  <input type="reset">
+	  
+		
+	</form>
+</body>
+</html>
+<footer>
+  <p>
+    Create by QUSYAIRIYA EKA HAMEIDA
+    <br>
+    XII RPL 2
+  </p>
+</footer>
+</body>
+</html>
